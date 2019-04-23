@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	p1:orientation="vertical"
+	p1:minWidth="25px"
+	p1:minHeight="25px"
+	xmlns:p1="http://schemas.android.com/apk/res/android"
+	p1:layout_width="wrap_content"
+	p1:layout_height="match_parent"
+	p1:id="@+id/linearLayout2">
+	<TextView
+		p1:text="App name: "
+		p1:textAppearance="?android:attr/textAppearanceMedium"
+		xmlns:p1="http://schemas.android.com/apk/res/android"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/appName" />
+	<TextView
+		p1:text="Battery charge level: "
+		p1:textAppearance="?android:attr/textAppearanceMedium"
+		xmlns:p1="http://schemas.android.com/apk/res/android"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/chargeLevel" />
+	<TextView
+		p1:text="Network access: "
+		p1:textAppearance="?android:attr/textAppearanceMedium"
+		xmlns:p1="http://schemas.android.com/apk/res/android"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/networkAccess" />
+	<TextView
+		p1:text="Display density: "
+		p1:textAppearance="?android:attr/textAppearanceMedium"
+		xmlns:p1="http://schemas.android.com/apk/res/android"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/displayDensity" />
+	<TextView
+		p1:text="Device platform: "
+		p1:textAppearance="?android:attr/textAppearanceMedium"
+		xmlns:p1="http://schemas.android.com/apk/res/android"
+		p1:layout_width="match_parent"
+		p1:layout_height="wrap_content"
+		p1:id="@+id/devicePlatform" />
+</LinearLayout>
